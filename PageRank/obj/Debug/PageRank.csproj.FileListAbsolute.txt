@@ -4,3 +4,9 @@ C:\Users\bxiong17\Desktop\PageRank\PageRank\bin\Debug\PageRank.exe
 C:\Users\bxiong17\Desktop\PageRank\PageRank\bin\Debug\PageRank.pdb
 C:\Users\bxiong17\Desktop\PageRank\PageRank\obj\Debug\PageRank.exe
 C:\Users\bxiong17\Desktop\PageRank\PageRank\obj\Debug\PageRank.pdb
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\bin\Debug\PageRank.exe.config
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\obj\Debug\PageRank.exe
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\obj\Debug\PageRank.pdb
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\bin\Debug\PageRank.exe
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\bin\Debug\PageRank.pdb
+C:\Users\bxiong17\Documents\GitHub\PageRank\PageRank\obj\Debug\PageRank.csprojResolveAssemblyReference.cache
