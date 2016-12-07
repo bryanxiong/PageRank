@@ -60,6 +60,8 @@ namespace PageRank
             Program p = new Program();
             int nodes = 0;
             int loop = 0;
+            List<string[]> matrix = new List<string[]>();
+
             Console.WriteLine("Enter the Number of WebPages");
             nodes = Convert.ToInt32(Console.ReadLine());
 
@@ -72,16 +74,24 @@ namespace PageRank
             for (int i = 1; i <= nodes; i++)
             {
                 integers = Console.ReadLine();
+                matrix.AddRange(integers);
                 for (int j = 1; j <= nodes; j++)
                 {
-                    int[] cost = integers.Split().Select(x => int.Parse(x)).ToArray();
+                    List<int> cost = integers.Split().Select(x => int.Parse(x)).ToList();
+                    
                     p.path[i, j] = cost[j-1];
 
                     if (j == i)
                         p.path[i, j] = 0;
                 }
+                foreach(var m in matrix)
+                {
+                    Console.Write(m.ToString() + " ");
+                }
             }
+     
             p.calc(nodes, loop);
+            
         }
     }
 }
